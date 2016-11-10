@@ -1,5 +1,7 @@
 # AngularJS-touch
-This directive provides a light-weight and quick code base to which you can use to add a multitude of touch events to an element within AngularJS.
+This directive provides a light-weight and quick code base to which you can use to add a multitude of touch events to an element within AngularJS. The reason I decided to build my own rather than using existing versions is because I felt that all existing directives were either way too heavy, didn't work most of the time or were missing some, what I deem as, core touch events. So I built the following and hopefully it'll come in usefull to someone else.
+
+If it gets minimised it'll likely work quicker and bring the file size down - however some alterations to the code may be required to avoid corrupting the javascript.
 
 The general basis of how this works is that you add a f-touch attribute onto your element, along with whatever touch actions you are wanting to capture.
 
