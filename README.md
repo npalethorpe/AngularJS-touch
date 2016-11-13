@@ -50,6 +50,9 @@ Then simply add the  ''f-touch'' attribute to your element as below:
 ```html
 // Handling a basic touch end situation (whilst ignoring drag)
 <div f-touch f-touchendnodrag="onActionFunction()"></div>
+
+// To avoid propagation add the stopPropagation attribute to your element as well
+<div f-touch f-touchendnodrag="onActionFunction()" stopPropagation="true"></div>
 ```
 
 
